@@ -11,6 +11,7 @@ import java.util.List;
  * @date ：2022/4/4 17:23
  */
 public abstract class AbBlogger implements Blogger {
+    //粉丝列表
     private List<Observer> observers;
 
     public AbBlogger() {
