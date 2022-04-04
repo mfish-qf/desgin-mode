@@ -10,7 +10,7 @@ import cn.com.mfish.observer.blog.Blogger;
  */
 public abstract class AbObserver implements Observer {
 
-    public abstract void update(String name);
+    public abstract void receiveNotify(String name);
 
     /**
      * 订阅某个博主

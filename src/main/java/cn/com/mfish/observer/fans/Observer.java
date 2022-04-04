@@ -6,5 +6,5 @@ package cn.com.mfish.observer.fans;
  * @date ：2022/4/4 17:15
  */
 public interface Observer {
-    void update(String name);
+    void receiveNotify(String name);
 }

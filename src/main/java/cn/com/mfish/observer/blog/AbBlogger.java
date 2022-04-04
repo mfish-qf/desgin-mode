@@ -30,7 +30,7 @@ public abstract class AbBlogger implements Blogger {
     @Override
     public void notifyObserver() {
         for (Observer observer : observers) {
-            observer.update(getName());
+            observer.receiveNotify(getName());
         }
     }
 

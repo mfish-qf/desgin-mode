@@ -9,7 +9,7 @@ package cn.com.mfish.observer.fans;
 public class Fans1 extends AbObserver {
 
     @Override
-    public void update(String name) {
+    public void receiveNotify(String name) {
         System.out.println("粉丝1收到[" + name + "]更新");
     }
 
