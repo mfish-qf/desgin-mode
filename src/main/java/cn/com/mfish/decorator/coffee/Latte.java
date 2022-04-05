@@ -8,6 +8,9 @@ import java.math.BigDecimal;
  * @date ：2022/4/5 20:58
  */
 public class Latte extends Coffee {
+    /**
+     * 制作一个普通拿铁
+     */
     public Latte(){
         description = "拿铁";
     }

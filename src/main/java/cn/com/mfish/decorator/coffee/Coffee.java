@@ -10,9 +10,19 @@ import java.math.BigDecimal;
 public abstract class Coffee {
     String description = "未知咖啡";
 
+    /**
+     * 获取咖啡描述
+     *
+     * @return
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * 咖啡价格
+     *
+     * @return
+     */
     public abstract BigDecimal price();
 }

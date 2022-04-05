@@ -12,6 +12,10 @@ import java.math.BigDecimal;
 public class Milk extends CoffeeDecorator {
     private Coffee coffee;
 
+    /**
+     * 实现一个厚乳装饰器
+     * @param coffee
+     */
     public Milk(Coffee coffee) {
         this.coffee = coffee;
     }
