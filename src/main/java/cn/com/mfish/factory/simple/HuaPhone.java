@@ -10,16 +10,16 @@ import cn.com.mfish.factory.Phone;
 public class HuaPhone implements Phone {
     @Override
     public void assembled() {
-        System.out.println("华为组装");
+        System.out.println("华为手机组装");
     }
 
     @Override
     public void test() {
-        System.out.println("华为测试");
+        System.out.println("华为手机测试");
     }
 
     @Override
     public void pack() {
-        System.out.println("华为包装");
+        System.out.println("华为手机包装");
     }
 }
